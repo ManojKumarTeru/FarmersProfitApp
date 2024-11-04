@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "FarmersProfit",
+    "name": "Farmers Profit",
     "slug": "FarmersProfit",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/MyImages/Logo.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
@@ -17,9 +17,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/MyImages/Logo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mak963.FarmersProfit"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,11 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6e303112-90ce-4cd0-8058-2979c1f5a9f8"
+      }
     }
   }
 }
